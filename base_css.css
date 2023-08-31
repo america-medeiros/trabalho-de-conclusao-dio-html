@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100%;
+    background-image: url(https://img.freepik.com/fotos-gratis/cenario-texturizado-de-parede-de-concreto-solido_53876-129493.jpg);
+    color:white;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:lightblue; text-decoration: none;}
+
+.logo {
+    text-align: right;
+}
+
+.bar {
+    background-image: url(ark_logo.jpg);
+    padding:15px;
+    border-top: 1px #cdcdcd;
+    border-bottom: 1px #cdcdcd;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: dashed 1px #cdcdcd;
+    text-align: center;
+    font-style: italic;
+}
+.anchors {
+    border-left: dashed 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: dashed 1px #cdcdcd;
+    padding-right: 15px;
+}
+figure {
+    text-align: center;
+}
+figure img {
+    width: 300px;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.mapas {
+    text-align: center;
+}
+
+.mapas img {
+    display: inline-block;
+    padding-right: 15px;
+}
